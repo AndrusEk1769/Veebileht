@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reader Survey - Hypixel Skyblock Farming</title>
+    <link rel="stylesheet" href="css/960_12_col.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandBook';
+            src: url('fonts/Quicksand_Book-webfont.eot');
+        }
+        body {
+            color: #ffffff;
+            background: #413f3b url("images/bg.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90%;
+            margin: 0px;
+            text-align: center;
+        }
+        a {
+            color: #b5c1ad;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        .header {
+            background-image: url("images/bg-header.jpg");
+            padding: 0px 0px 0px 0px;
+            height: 100px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            z-index: 50;
+        }
+        .footer {
+            clear: both;
+            background: rgba(0,0,0,0.2);
+            padding: 5px 10px;
+        }
+        .footer p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            text-align: right;
+        }
+        .footer a {
+            color: #807c72;
+        }
+
+        .wrapper {
+            width: 960px;
+            margin: 0px auto;
+            background-image: url("images/bg-triangle.png");
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            text-align: left;
+        }
+
+
+        .survey-form {
+            background-color: rgba(65, 63, 59, 0.7);
+            padding: 25px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+
+        .info-box {
+            background: rgba(181, 193, 173, 0.2);
+            padding: 15px;
+            border-radius: 3px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container_12">
+            <div class="grid_5">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Hypixel" width="46%" height="46%" class="logo" />
+                </a>
+               
+            </div>
+            <div class="nav grid_7">
+                <a href="index.html">home</a> / 
+                <a href="news.html">news</a> / 
+                <a href="archives.html">archives</a> / 
+                <a href="about.html">about</a> / 
+                <a href="contact.html">contact</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        <div class="main-story container_12">
+            <div class="grid_12">
+                <h1>Barn vs Garden Farming in Hypixel Skyblock</h1>
+                <div class="grid_8 alpha">
+                    <div class="survey-form">
+                        <p class="date">March 2025 Edition</p>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Which farming method do you prefer?</label>
+                                <select name="farming_preference" required>
+                                    <option value="">Select an option</option>
+                                    <option value="barn">Barn Farming</option>
+                                    <option value="garden">Garden Farming</option>
+                                    <option value="both">Both equally</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>What crops do you farm the most?</label>
+                                <textarea id="crops" name="crops" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Submit Survey</button>
+                        </form>
+                    </div>
+                </div>
+                <aside class="grid_4 omega">
+                    <div class="survey-form">
+                        <h3>Barn vs Garden Farming</h3>
+                        <p>Barn farming allows early-game players to collect wheat, carrots, and potatoes, but has lower efficiency compared to the Garden.</p>
+                        <p>The Garden offers private, customizable plots for automated large-scale farming, boosting profits and efficiency.</p>
+                        <div class="info-box">
+                            <h3>Which is better?</h3>
+                            <ul>
+                                <li>Barn farming is good for beginners.</li>
+                                <li>Garden farming offers greater flexibility and scaling.</li>
+                                <li>Profits depend on crop selection and NPC vs. Bazaar prices.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        
+        <div class="footer clearfix">
+            <div class="container_12">
+                <p class="grid_12">
+                    <a href="javascript:history.back()" class="back-button">← Back</a> |
+                    <a href="LegalInformation.html">Legal Information</a> | 
+                    <a href="PrivacyPolicy.html">Privacy Policy</a> | 
+                    <a href="Copyright.html">Copyright &copy; Skyblock Guides 2025</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

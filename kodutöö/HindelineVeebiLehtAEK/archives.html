@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="css/960_12_col.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandBook';
+            src: url('fonts/Quicksand_Book-webfont.eot');
+        }
+        body {
+            color: #ffffff;
+            background: #413f3b url("images/bg.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90%;
+            margin: 0px;
+            text-align: center;
+        }
+        a {
+            color: #b5c1ad;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        .header {
+            background-image: url("images/bg-header.jpg");
+            padding: 0px 0px 0px 0px;
+            height: 100px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            z-index: 50;
+        }
+
+        .nav {
+            float: right;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            padding: 45px 0px 0px 0px;
+        }
+
+        .wrapper {
+            width: 960px;
+            margin: 0px auto;
+            background-image: url("images/bg-triangle.png");
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            text-align: left;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            color: #b5c1ad;
+        }
+
+        h1 {
+            font-size: 240%;
+            margin-top: 140px;
+        }
+        .date {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            color: #b5c1ad;
+        
+        }
+       
+        
+        .footer {
+            clear: both;
+            background: rgba(0,0,0,0.2);
+            padding: 5px 10px;
+        }
+        .footer p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            text-align: right;
+        }
+        .footer a {
+            color: #807c72;
+        }
+        .archive-entries h3 {
+        color: #b5c1ad;
+        font-size: 110%;
+        margin: 15px 0 5px 0;
+    }
+    
+    .archive-story {
+        background-color: rgba(65, 63, 59, 0.8);
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        border-left: 3px solid #b5c1ad;
+    }
+
+    .archive-story h3 {
+        color: #ffffff;
+        font-size: 130%;
+        margin: 0 0 10px 0;
+        font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+    }
+
+    .story-date {
+        color: #b5c1ad;
+        font-size: 85%;
+        margin-bottom: 15px;
+        font-style: italic;
+    }
+
+    .story-content {
+        color: #ffffff;
+        line-height: 1.6;
+        font-size: 95%;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container_12">
+            <div class="grid_5">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Hypixel" width="46%" height="46&" class="logo" />
+                </a>
+                
+            </div>
+            <div class="nav grid_7">
+                <a href="index.html">home</a> / 
+                <a href="news.html">news</a> / 
+                <a href="archives.html">archives</a> / 
+                <a href="about.html">about</a> / 
+                <a href="contact.html">contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="main-story container_12">
+            <div class="grid_12">
+                <h1>Archives</h1>
+                <article class="grid_6 alpha">
+                    <h2>News Archives</h2>
+                    <p class="date">Previous Highlights</p>
+                    <div class="archive-entries">
+                        <div class="archive-story">
+                            <h3>Pest Hunter update</h3>
+                            <p class="story-date">December 2, 2024</p>
+                            <p class="story-content">
+                                The Pest Hunter Update introduced a crucial feature for managing pests in your Skyblock Garden: Traps for Pests. This update allows players to prevent, capture, and manage pests more efficiently using a variety of new traps that help protect your crops and maintain your farm’s productivity.
+                            </p>
+                        </div>
+                        
+                        <div class="archive-story">
+                            <h3>Pest update</h3>
+                            <p class="story-date">May 30, 2024</p>
+                            <p class="story-content">
+                                The Pest Update brought a new challenge to farming in Hypixel Skyblock, introducing pests that can damage crops, reduce yields, and make farming more interactive. Here’s a breakdown of what this update changed and how to deal with it effectively.
+                            </p>
+                        </div>
+                        
+                        <div class="archive-story">
+                            <h3>Garden update </h3>
+                            <p class="story-date">May 5, 2023</p>
+                            <p class="story-content">
+                                The Garden is a customizable farming island where players can grow crops, interact with NPC visitors, and progress through farming milestones. Unlike the private island, the Garden provides an automated plot system and better farming mechanics for large-scale crop production.
+                            </p>
+                        </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="footer clearfix">
+            <div class="container_12">
+                <p class="grid_12">
+                    <a href="javascript:history.back()" class="back-button">←Back</a> |
+                    <a href="LegalInformation.html">Legal Information</a> | 
+                    <a href="PrivacyPolicy.html">Privacy Policy</a> | 
+                    <a href="Copyright.html">Copyright &copy; Skyblock Guides 2025</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
